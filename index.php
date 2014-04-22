@@ -40,9 +40,9 @@ if ($_GET['status']) {
         } elseif ($status == 'error_2') {
             echo '<div class="error">Некорректная цель обращения</div>';
         } elseif ($status == 'error_3') {
-        echo '<div class="error">Некорректное обращение</div>';
+    	    echo '<div class="error">Некорректное обращение</div>';
         } elseif ($status == 'error_4') {
-        echo '<div class="error">Некорректный e-mail адрес <br>Пример: mymail@ostrovok.ru</div>';
+    	    echo '<div class="error">Некорректный e-mail адрес <br>Пример: mymail@ostrovok.ru</div>';
         }
         ?>
         <div class="p">Цель твоего обращения:</div>
